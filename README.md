@@ -1,5 +1,7 @@
 # MechaCar Statistical Analysis with R
 
+## Overview
+
 ## I. Linear Regression to Predict MPG
 
 <img width="771" alt="Deliveralbe 1 lm" src="https://user-images.githubusercontent.com/84211948/134463264-7723dd55-f5ff-4b0c-8b18-273d55d632dc.png">
@@ -62,3 +64,5 @@ The p-value from this t-test is 0.6072, which is greater than our assumed signif
 <img width="774" alt="t-test for lot3" src="https://user-images.githubusercontent.com/84211948/134499166-3d9a04a8-49df-40c3-9e5b-0800fe092982.png">
 
 The p-value from the t-test for lot 3 is 0.04168, which is smaller than our assumed significance level of 0.05.  Therefore, we do have sufficient evidence to reject the null hypothesis and accept alternative hypothesis. We can state that the PSI for manufacturing lot 3 is statistically not equal to 1,500 pounds per square inch.
+
+## IV. tudy Design: MechaCar vs Competition
