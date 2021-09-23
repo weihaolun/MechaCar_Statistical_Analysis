@@ -65,4 +65,4 @@ The p-value from this t-test is 0.6072, which is greater than our assumed signif
 
 The p-value from the t-test for lot 3 is 0.04168, which is smaller than our assumed significance level of 0.05.  Therefore, we do have sufficient evidence to reject the null hypothesis and accept alternative hypothesis. We can state that the PSI for manufacturing lot 3 is statistically not equal to 1,500 pounds per square inch.
 
-## IV. tudy Design: MechaCar vs Competition
+## IV. Study Design: MechaCar vs Competition
