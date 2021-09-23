@@ -18,3 +18,12 @@
 
 <img width="482" alt="lot_summary" src="https://user-images.githubusercontent.com/84211948/134472796-25e5e5a9-5487-46d6-a5e6-d11aee268359.png">
 
+## III. T-Tests on Suspension Coils
+
+<img width="774" alt="t-test for all" src="https://user-images.githubusercontent.com/84211948/134499110-96413afe-711b-4fd2-b05a-2a9ef2122471.png">
+
+<img width="773" alt="t-test for lot1" src="https://user-images.githubusercontent.com/84211948/134499131-f66dec61-c525-43fe-bd00-619d6f949142.png">
+
+<img width="774" alt="t-test for lot2" src="https://user-images.githubusercontent.com/84211948/134499149-5df33c66-83f6-431c-8d4d-d9f7f879c799.png">
+
+<img width="774" alt="t-test for lot3" src="https://user-images.githubusercontent.com/84211948/134499166-3d9a04a8-49df-40c3-9e5b-0800fe092982.png">
