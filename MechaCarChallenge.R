@@ -1,3 +1,4 @@
+# Deliverable 1 - Linear Regression to Predict MPG
 # Install Library
 library(tidyverse)
 
@@ -9,4 +10,16 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 
 # Summary() to determine p-value and the r-squared value.
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,mecha_mpg))
+
+
+# Deliverable 2 - Visualization for the Trip Analysis
+# Import and read suspension_coil.csv
+suspension_coil <- read.csv(file='Datasources/Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
+
+# Create a total_summary data frame using summarize()
+total_summary <- suspension_coil %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+  
+# Create a lot_summary data frame using group_by() and summarize()
+# to group each manufacturing lot by the mean, median, variance and sd.
+lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 
