@@ -12,4 +12,9 @@
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-## II. Visualizations for the Trip Analysis
+## II. Summary Statistics on Suspension Coils
+
+<img width="329" alt="total_summary" src="https://user-images.githubusercontent.com/84211948/134472773-1062dfb0-fb38-4038-884c-5960a2254ff7.png">
+
+<img width="482" alt="lot_summary" src="https://user-images.githubusercontent.com/84211948/134472796-25e5e5a9-5487-46d6-a5e6-d11aee268359.png">
+
