@@ -10,7 +10,7 @@
 
 - **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
-   In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. According to the results, vehicle_length and vehicle_weight have the smallest Pr(>|t|) values. In another word, vehicle_length and vehicle_weight are statistically least likely to provide random amount of variance to the mpg value because these two variables have significant impact on mpg values.
+   In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. According to the results, vehicle_length and ground_clearance have the smallest Pr(>|t|) values. In another word, vehicle_length and ground_clearance are statistically least likely to provide random amount of variance to the mpg value because these two variables have significant impact on mpg values.
 
 - **Is the slope of the linear model considered to be zero? Why or why not?**
 
