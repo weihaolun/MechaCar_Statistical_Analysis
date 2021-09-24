@@ -2,6 +2,16 @@
 
 ## Overview
 
+AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing process. In this project, I am going to conduct the data analysis using R language to review and analyze the production data of the manufacturing lots to help resolve the problem.
+
+There are four parts in this project:
+
+1.	Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+2.	Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+3.	Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+4.	Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you'll write a summary interpretation of the findings.
+
+
 ## I. Linear Regression to Predict MPG
 
 <img width="771" alt="Deliveralbe 1 lm" src="https://user-images.githubusercontent.com/84211948/134463264-7723dd55-f5ff-4b0c-8b18-273d55d632dc.png">
