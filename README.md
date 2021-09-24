@@ -66,3 +66,54 @@ The p-value from this t-test is 0.6072, which is greater than our assumed signif
 The p-value from the t-test for lot 3 is 0.04168, which is smaller than our assumed significance level of 0.05.  Therefore, we do have sufficient evidence to reject the null hypothesis and accept alternative hypothesis. We can state that the PSI for manufacturing lot 3 is statistically not equal to 1,500 pounds per square inch.
 
 ## IV. Study Design: MechaCar vs Competition
+
+### 1. What metric or metrics are you going to test?
+
+In order to analysis the MechaCar’s performance against the competition, I will measure the following three metrics:
+-	Cost
+-	Fuel efficiency
+-	Safety rating
+
+These three metrics are often considered by consumers when purchasing a car. Cost is often the No.1 factor, as most people would set a budget before browsing options and compare options based on cost. Fuel efficiency is another important factor as it is important to know how much your vehicle is costing you every time you drive. A higher fuel efficiency can be a better option even when cost of the vehicle is higher. Safety rating is extremely important. Vehicles with high safety ratings generally have curtain, front, knee, and side airbags, which can provide significant higher level of protection. For consumers, safety should definitely be considered.
+
+
+### 2. What is the null hypothesis or alternative hypothesis?
+
+**Cost:**
+
+_Null Hypothesis:_ The means of cost of all vehicles in this class are equal.
+
+_Alternative Hypothesis:_ At least one of the vehicles in this class has a different mean of cost than other vehicles.
+
+**Fuel efficiency:**
+
+_Null Hypothesis:_ The means of fuel efficiency of all vehicles in this class are equal.
+
+_Alternative Hypothesis:_ At least one of the vehicles in this class has a different mean of fuel efficiency than other vehicles.
+
+**Safety rating:**
+
+_Null Hypothesis:_ The means of safety ratings of all vehicles in this class are equal.
+
+_Alternative Hypothesis:_ At least one of the vehicles in this class has a different mean of safety rating than other vehicles.
+
+### 3. What statistical test would you use to test the hypothesis? And why?
+
+**Cost:**
+
+One-Way ANOVA test. This test will be used to test the mean cost of MechaCar with multiple other competition vehicles’ mean costs in the same class. 
+
+**Fuel efficiency:**
+
+Two-Way ANOVA test. This test will be used to test the mean of fuel efficiency of MechaCar with multiple other competition vehicles’ mean fuel efficiency in the same class. In addition, I want to test for two different independent variables: the fuel efficiency in city and on highway. Therefore, I need to use Two-Way ANOVA instead of One-Way ANOVA test to be able to test two conditions.
+
+**Safety rating:**
+
+One-Way ANOVA test. This test will be used to test the mean safety rating of MechaCar with multiple other competition vehicles’ mean safety rating in the same class. 
+
+### 4. What data is needed to run the statistical test?
+
+I would need a sample size of 50 MechaCars, and 50 of each other 4 competition vehicles in the same class, so 250 vehicles total to make a sufficient analysis.
+
+For cost, I will need the cost of each of the 250 vehicles. For Fuel efficiency, I need two data points of each vehicle: mean fuel efficiency in the city and mean fuel efficiency on highway. For Safety rating, I need the mean safety rating of each vehicle. 
+
