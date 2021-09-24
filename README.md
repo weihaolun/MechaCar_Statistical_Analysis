@@ -14,6 +14,8 @@ There are four parts in this project:
 
 ## I. Linear Regression to Predict MPG
 
+In this section, I performed a multiple linear regression analysis to determine which variables predict the mpg of MechaCar prototypes. The screenshot below is the result of using ```summary()``` to determine the p-value and the r-squared value for the linear regression model.
+
 <img width="771" alt="Deliveralbe 1 lm" src="https://user-images.githubusercontent.com/84211948/134463264-7723dd55-f5ff-4b0c-8b18-273d55d632dc.png">
 
 <img width="771" alt="Deliverable 1 lm summary" src="https://user-images.githubusercontent.com/84211948/134463275-3965623a-dc84-47a7-9041-0bbed41d59bd.png">
@@ -37,6 +39,8 @@ There are four parts in this project:
 
 ## II. Summary Statistics on Suspension Coils
 
+In this section, I created two summaries to summarize the statistics on PSI of the suspension coils from the manufacturing lots. The first chart is a summary overall for the entire manufacturing site. The second chart is a summary for each manufacturing lot.
+
 <img width="329" alt="total_summary" src="https://user-images.githubusercontent.com/84211948/134472773-1062dfb0-fb38-4038-884c-5960a2254ff7.png">
 
 <img width="482" alt="lot_summary" src="https://user-images.githubusercontent.com/84211948/134472796-25e5e5a9-5487-46d6-a5e6-d11aee268359.png">
@@ -48,6 +52,8 @@ There are four parts in this project:
   However, when looking at lot_summary, not all the lots meet the requirement. The first lot has a variance of 0.98 and the second lot has a variance of 7.47, which means these two lots both meet the design specification requirement. The third lot has a variance of 170.29, which is 70.29 over the requirement. Therefore, the third lot does not meet the design requirement.
 
 ## III. T-Tests on Suspension Coils
+
+For this section, I did three t-test to determine if the manufacturing lots are statistically different from the presumed mean population.
 
 ### 1. This t-test is created to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 
@@ -76,6 +82,8 @@ The p-value from this t-test is 0.6072, which is greater than our assumed signif
 The p-value from the t-test for lot 3 is 0.04168, which is smaller than our assumed significance level of 0.05.  Therefore, we do have sufficient evidence to reject the null hypothesis and accept alternative hypothesis. We can state that the PSI for manufacturing lot 3 is statistically not equal to 1,500 pounds per square inch.
 
 ## IV. Study Design: MechaCar vs Competition
+
+For the last section, I designed a statistic study to compare the MechaCar to the competition. The following part will explain the metrics to measure, the hypothesis, the test to use, and the data needed.
 
 ### 1. What metric or metrics are you going to test?
 
@@ -108,6 +116,8 @@ _Null Hypothesis:_ The means of safety ratings of all vehicles in this class are
 _Alternative Hypothesis:_ At least one of the vehicles in this class has a different mean of safety rating than other vehicles.
 
 ### 3. What statistical test would you use to test the hypothesis? And why?
+
+Overall, I will use ANOVA test for this study. Because ANOVA test is used to compare the means of a continuous numerical variable across multiple groups.
 
 **Cost:**
 
