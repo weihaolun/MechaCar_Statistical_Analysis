@@ -14,7 +14,7 @@ There are four parts in this project:
 
 ## I. Linear Regression to Predict MPG
 
-In this section, I performed a multiple linear regression analysis to determine which variables predict the mpg of MechaCar prototypes. The screenshot below is the result of using ```summary()``` to determine the p-value and the r-squared value for the linear regression model.
+In this section, I first performed a multiple linear regression analysis to determine which variables predict the mpg of MechaCar prototypes. Then got to the result using ```summary()``` to determine the p-value and the r-squared value for the linear regression model.
 
 <img width="771" alt="Deliveralbe 1 lm" src="https://user-images.githubusercontent.com/84211948/134463264-7723dd55-f5ff-4b0c-8b18-273d55d632dc.png">
 
@@ -39,7 +39,7 @@ In this section, I performed a multiple linear regression analysis to determine 
 
 ## II. Summary Statistics on Suspension Coils
 
-In this section, I created two summaries to summarize the statistics on PSI of the suspension coils from the manufacturing lots. The first chart is a summary overall for the entire manufacturing site. The second chart is a summary for each manufacturing lot.
+In this section, I created two summaries to summarize the statistics on PSI of the suspension coils from the manufacturing lots. The first chart is an overall summary for the entire manufacturing site. The second chart is a summary for each manufacturing lot.
 
 <img width="329" alt="total_summary" src="https://user-images.githubusercontent.com/84211948/134472773-1062dfb0-fb38-4038-884c-5960a2254ff7.png">
 
@@ -53,13 +53,13 @@ In this section, I created two summaries to summarize the statistics on PSI of t
 
 ## III. T-Tests on Suspension Coils
 
-For this section, I did three t-test to determine if the manufacturing lots are statistically different from the presumed mean population.
+For this section, I did three t-tests to determine if the manufacturing lots are statistically different from the presumed mean population.
 
 ### 1. This t-test is created to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 
 <img width="774" alt="t-test for all" src="https://user-images.githubusercontent.com/84211948/134499110-96413afe-711b-4fd2-b05a-2a9ef2122471.png">
 
-From the result we can see that the p-value = 0.06028, which is greater than our assumed significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis. We should accept the null hypothesis and reject the alternative hypothesis. In conclusion, we should sate that the PSI across all manufacturing lots is statistically similar to the population mean of 1,500 pounds per square inch.
+From the result we can see that the p-value = 0.06028, which is greater than our assumed significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis. We should accept the null hypothesis and reject the alternative hypothesis. In conclusion, we should state that the PSI across all manufacturing lots is statistically similar to the population mean of 1,500 pounds per square inch.
 
 ### 2. The following three t-test are used to determine if the PSI for each manufacturing lot is statistically different from the population mean of 15,000 pounds per square inch.
 
@@ -73,7 +73,7 @@ The p-value from this t-test is 1, which is not only greater than our assumed si
 
 <img width="774" alt="t-test for lot2" src="https://user-images.githubusercontent.com/84211948/134499149-5df33c66-83f6-431c-8d4d-d9f7f879c799.png">
 
-The p-value from this t-test is 0.6072, which is greater than our assumed significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis. We should sate that the PSI for manufacturing lot 2 is statistically similar to the population mean of 1,500 pounds per square inch.
+The p-value from this t-test is 0.6072, which is greater than our assumed significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis. We should state that the PSI for manufacturing lot 2 is statistically similar to the population mean of 1,500 pounds per square inch.
 
 **c.	Manufacturing Lot 3**
 
